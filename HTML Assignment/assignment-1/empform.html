@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<style type="text/css">
+        label{
+     widhth: 100px;
+     display:inline-block;
+        }
+    </style>-->
+   <style>
+        form {
+            width: fit-content;
+            margin: 50px auto;
+        }
+        #submit {
+            display: block;
+            margin: 50px auto;
+        }
+    </style> 
+</head>
+<body>
+    <form >
+        <table>
+        <tr>
+        <legend style="color: red;"><h1><image src="https://images.pexels.com/photos/5649094/pexels-photo-5649094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50" hight="50"></image>
+                        Employee Registration form</legend></h1>
+        <tr>
+            <th>
+            <b><input type="radio" name="gender" id="mr">Mr.</b>
+            <b><input type="radio" name="gender" id="mrs">Mrs.</b>
+           <b><input type="radio" name="gender" id="mrs">Ms.</b>
+            
+            </th>
+        </tr>
+            <tr>
+                <td>
+            <br/>
+           <b><label for="fname">First Name:</label></b>
+            <input
+            type="text"
+            name=""
+            id="fname"
+            class="some"
+            placeholder="Enter your name"
+            required
+            minlength="3"
+            maxlength="20"
+            />
+                </td></tr>
+           
+            <tr>
+                <td>
+                    <br/>
+            <b><label for="lname">Last Name:</label></b>
+            <input 
+            type="text"
+            name=""
+            id="lname"
+            class="some"
+            placeholder="Enter your name"
+            required
+            minlength="3"
+            maxlength="20"
+            />
+            </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <br/>
+                    <b><label for="madd1">Mail Address 1:</label></b>
+            <input 
+            type="email"
+            name=""
+            id="madd1"
+            class="some"
+            required
+            minlength="3"
+            maxlength="20"
+            />
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <br/>
+                    <b><label for="madd2">Mail Address 2:</label></b>
+            <input 
+            type="email"
+            name=""
+            id="madd2"
+            class="some"
+            required
+            minlength="3"
+            maxlength="20"
+            />
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br/>
+                    <b><label for="City">City:</label></b>
+                    <input
+                    type="text"
+                    name=""
+                    id="city"
+                    class="some"
+                    required
+                    min="3"
+                    maxlength="10"
+                    />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <br/>
+                    <b><label for="state">State:</label></b>
+                    <select name="" id="state">
+                        <option value="Guj">Gujrat</option>
+                        <option value="mharashtra">Maharashtra</option>
+                        <option value="up">Up</option>
+
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <br/>
+                    <b> <lable for ="zip">Zip:</lable></b>
+                    <input type="text"
+                    name=""
+                    id="zip"
+                    class="some"
+                    required
+                    minlength="3"
+                    maxlength="20"
+                    />
+                </td>
+            </tr>
+            <td>
+                <br/>
+           <b><label for="uploadpic"> Upload Photo:</label></b>
+           <input type="file">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <br/>
+               <b> <label for="email">E-Mail:</label></b>
+                <input type="email"
+                id="email"
+                required
+                />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br/>
+                <b><label for="mno">Mobile No:</label></b>
+                <input type="number"
+                id="mno"
+                minlength="0"
+                maxlength="10"
+                />
+            </td>
+        </tr>
+           <tr>
+            <td>
+                <br/>
+               <b> Languages Known: </b>
+                <input type="checkbox" name="" id="guj" checked />
+                <label for="gujrati"><b>Gujrati</b></label>
+                <input type="checkbox" name="" id="hin" checked />
+                <label for="hin"><b>Hindi</b></label>
+                <input type="checkbox" name="" id="eng" checked/>
+                <label for="eng"><b>English</b></label>
+                <input type="checkbox" name="" id="marathi"/>
+                <label for="marathi"><b>Marathi</b></label>
+            </td>
+           </tr>
+           <tr>
+            <td>
+            </br>
+        
+               <label for="addinfo" form="Employee"><b>Additional Information:</b></label></td></tr>
+              <tr><td>
+                <textarea
+                type="text"
+                name=""
+                cols="25"
+                rows="5"
+                id="addinfo"
+                placeholder="optional"
+                >
+            </textarea>
+            </tr>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <br/>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            </td>
+            </tr>
+
+        
+
+    </form>
+</body>
+</html>
