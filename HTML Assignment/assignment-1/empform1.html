@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        label{
+            width: 100px;
+            display: inline-block;
+        }
+        #form{
+            align: center;
+        }
+    </style>
+</head>
+<body>
+    <table align="center">
+        <legend title="color: red;" align="center"><h1><image src="https://images.pexels.com/photos/5649094/pexels-photo-5649094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50" hight="50"></image>
+            Employee Registration form</legend></h1>
+        <tr>
+            <!--<th colspan="2">Employ regestration form</th>-->
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="Salutationn" id="mr">
+                <label for="mr"><b>Mr.</b></label>
+              
+                <input type="radio" name="Salutationn" id="ms">
+                <label for="ms"><b>Ms.</b></label>
+               
+                <input type="radio" name="Salutationn" id="mrs">
+                <label for="mrs"><b>Mrs.</b></label>
+               
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="fname"><b>First Name</b></label>
+                <input type="text" name="fname" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lname"><b>Last Name</b></label>
+                <input type="text" name="lname" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="madd1"><b>Mail Address1</b></label>
+                <input type="email" name="madd1" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="madd2"><b>Mail Address2</b></label>
+                <input type="email" name="madd2" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="city"><b>City</b></label>
+                <input type="text" name="city" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="state"><b>State</b></label>
+                <select name="" id="state">
+                    <option value="Guj"><b>Gujrat</b></option>
+                    <option value="mharashtra"><b>Maharashtra</b></option>
+                    <option value="up"><b>Up</b></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="zip"><b>Zip</b></label>
+                <input type="text" name="zip" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="uploadpic"><b> Upload Photo:</b></label></b>
+                <input type="file">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email"><b>E-mail</b></label>
+                <input type="email" name="email" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="mno"><b>Mobile number</b></label>
+                <input type="number" name="mno" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br/><input type="checkbox" name="" id="guj" checked />
+                <label for="gujrati"><b>Gujrati</b></label>
+                <br/><input type="checkbox" name="" id="hin" checked />
+                <label for="hin"><b>Hindi</b></label>
+                <br/><input type="checkbox" name="" id="eng" checked/>
+                <label for="eng"><b>English</b></label>
+                <br/><input type="checkbox" name="" id="marathi"/>
+                <label for="marathi"><b>Marathi</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="addinfo" form="Employee"><b>Additional Information:</b></label>
+        
+                <textarea
+                type="text"
+                name="addinfo"
+                id="addinfo"
+                placeholder="optional"
+                >
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
