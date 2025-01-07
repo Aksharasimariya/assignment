@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="min-900.css">
+   
+   <style>
+        .wrapper{
+            width: 70%;
+            display: flex;
+            margin: 0 auto;
+            grid-template-columns: repeat(auto-fit, minmax(700px, 916px));
+
+        }
+        .image-gallery{
+
+            background-color: black;
+            display: grid;
+            
+            grid-template-columns: repeat(4, 150px);
+            grid-template-rows: repeat(4, 150px);
+
+            gap: 10px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+            transition: all 300ms;
+        }
+               
+        img:hover{
+            scale: 1.2;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+             rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        }
+
+        img:nth-child(1) {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        img:nth-child(2) {
+            grid-row: 1/2;
+            grid-column: 4/5;
+        }
+        img:nth-child(3){
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        img:nth-child(4){
+            grid-row: 2/3;
+            grid-column: 2/4;
+        }
+        img:nth-child(5){
+            grid-row: 2/3;
+            grid-column: 4/5;
+        }
+        img:nth-child(6){
+            grid-row: 3/4;
+            grid-column: 1/3;
+        }
+        img:nth-child(7){
+            grid-row: 3/4;
+            grid-column: 3/5;
+        }
+        img:nth-child(8){
+            grid-row: 4/5;
+            grid-column: 2/4;
+        }
+        img:nth-child(9){
+            grid-row: 4/5;
+            grid-column: 4/5;
+        }
+        .side-bar{
+            width:20% ;
+            background-color: black;
+            color: azure;
+            text-align: right;
+            
+             
+              }
+              i{
+                padding: 5px;
+            
+              }
+              h2,h4,i{
+                padding-right: 20px;
+              }
+    
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="image-gallery">
+        <img src="https://images.pexels.com/photos/1802268/pexels-photo-1802268.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+        <img src="https://images.pexels.com/photos/341970/pexels-photo-341970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+        <img src="https://images.pexels.com/photos/28871394/pexels-photo-28871394/free-photo-of-majestic-mountain-at-sunrise-in-italian-alps.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+        <img src="https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+        <img src="https://images.pexels.com/photos/1807110/pexels-photo-1807110.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+        <img src="https://images.pexels.com/photos/91153/pexels-photo-91153.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+        <img src="https://images.pexels.com/photos/65665/smile-mouth-teeth-laugh-65665.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+        <img src="https://images.pexels.com/photos/36029/aroni-arsa-children-little.jpg?auto=compress&cs=tinysrgb&w=600" alt="" />
+        <img src="https://images.pexels.com/photos/28672415/pexels-photo-28672415/free-photo-of-historic-archway-in-wroclaw-s-old-town.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+        <img src="https://images.pexels.com/photos/28672398/pexels-photo-28672398/free-photo-of-historic-street-view-of-wroclaw-townhouses.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+    </div>
+    
+    <div class="side-bar" id="sb">
+         <div class="header">
+            <h2>SHUTTER</h2>
+         </div>
+         <div class="content">
+            <h4>HOME</h4>
+            <h4>PHOTOS</h4>
+            <h4>BIO</h4>
+            <h4>BLOG</h4>
+            <h4>CONTACT</h4>
+         </div>  
+         <div class="footer">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-qrcode"></i>
+         </div> 
+    </div>
+    </div>
+</body>
+</html>

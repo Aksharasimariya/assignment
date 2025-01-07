@@ -1,0 +1,15 @@
+@media (min-width: 900px){
+    
+    #sb{
+    width: 10%;
+    }
+
+    #sb i{
+        padding: 0;
+    }
+    
+    #sb h2,h4,i{
+        padding: 0;
+
+    }
+}

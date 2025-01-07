@@ -1,0 +1,85 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}  
+body{
+    background-color: rgb(147, 160, 195);
+}
+nav{
+    position: absolute;
+    /* top:0; */
+    /* bottom: 0; */
+    height: 100%;
+    /* left:0; */
+    background-color:  rgb(109, 131, 193);
+    width: 90px;
+    overflow: hidden;
+    transition: 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 10px;
+    margin: 10px 0 0 10px;
+}
+nav .logo i{
+    /* width: 55px; */
+    /* height: 55px; */
+    /* border-radius: 50%; */
+    font-size: 35px;
+    color: rgb(50, 49, 49);
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 25px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(50, 49, 49);
+}
+a{
+    position: relative;
+    color: rgb(5, 4, 4);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+nav li{
+    list-style: none;
+}
+nav ul li i{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top:12px;
+    margin-left: 10px;
+}
+a:hover{
+    background: rgb(94, 94, 136);
+}
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+}

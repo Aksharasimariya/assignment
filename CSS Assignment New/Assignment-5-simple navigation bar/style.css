@@ -1,0 +1,17 @@
+nav{
+    margin-top: 40px;
+    background-color: rgb(205, 144, 144);
+    align-content: center;
+}
+a{ 
+
+    display: inline-block;
+    font-size: xx-large;
+    background-color: rgba(207, 217, 242, 0.658);
+    margin-left: 200px;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: rgb(179, 128, 226);
+}
