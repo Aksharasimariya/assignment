@@ -47,15 +47,12 @@ body{
      padding: 0.8rem;
      font-family:sans-serif;
      color:white;
-     
-
-}
+     }
 .rating{
     font-size: 0.8rem;
     color:#fdcc0d;
     user-select: none;
     padding: 0.4rem;
-
 }
 
 .product-detail{

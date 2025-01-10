@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            margin: 50px auto;
+            padding:30px;
+            width: 700px;
+            height: 600px;
+            border:2px solid black;
+            }
+        p{
+            font-size: 20px;
+            font-weight: 400px;
+            text-align: center;
+            margin-top: 25px;
+        }
+        ol{
+            margin-top: 25px;
+            margin-left: 100px;
+         }
+        li{
+            font-size: 25px;
+            margin-bottom: 20px;
+            }
+        .input1{
+            font-size: 25px;
+            margin-left: 20px;
+            }
+    
+        
+        .label1{
+            font-size: 25px;
+            width: 150px;
+            display: inline-block;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            font-size: 20px;
+            margin-left: 277px;
+            margin-bottom: 20px;
+            margin-top: 15px;
+        }
+        .input{
+            width:100px;
+            font-size: 15px;
+            margin-right: 30px;
+        }
+        .label{
+            font-size: 25px;
+            margin-left: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Marksheet for Information Technology</h2>
+        <p>Enter Marks</p>
+        <ol>
+            <li>
+                <label for="" class="label1" >C Language</label>
+                <input type="number" class="input1" id="c">
+            </li>
+
+            <li>
+                <label for="" class="label1" >C++ Language</label>
+                <input type="number" class="input1" id="c++">
+            </li>
+
+            <li>
+                <label for="" class="label1" >Database</label>
+                <input type="number" class="input1" id="data">
+            </li>
+
+            <li>
+                <label for="" class="label1" >HTML</label>
+                <input type="number" class="input1" id="html">
+            </li>
+
+            <li>
+                <label for="" class="label1" >CSS</label>
+                <input type="number" class="input1" id="css">
+            </li>
+
+            <li>
+                <label for="" class="label1" >PHP</label>
+                <input type="number" class="input1" id="php">
+            </li>
+
+            <li>
+                <label for="" class="label1" >Core java</label>
+                <input type="number" class="input1" id="java">
+            </li>
+        </ol>
+
+        <button id="result">Result</button>
+        <br>
+
+        <label for="" class="label">Total is:</label>
+        <input type="number" class="input" id="total">
+
+        <span><label for="" class="label" >Percentage is :</label>
+            <input type="number" class="input" id="per"></span>
+    </div>
+
+    <script>
+        var cLanguage=document.getElementById("c");
+        var advanceC=document.getElementById("c++");
+        var database=document.getElementById("data");
+        var html=document.getElementById("html");
+        var css=document.getElementById("css");
+        var php=document.getElementById("php");
+        var java=document.getElementById("java");
+        var total=document.getElementById("total");
+        var per=document.getElementById("per");
+
+        result.addEventListener('click', function(){
+                total.value=parseInt(cLanguage.value) + parseInt(advanceC.value) + parseInt(database.value) + parseInt(html.value) + parseInt(css.value) + parseInt(php.value) + parseInt(java.value);
+            
+                per.value=parseInt (total.value/700*100);
+        });
+    </script>
+</body>
+</html>
