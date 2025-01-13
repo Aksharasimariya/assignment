@@ -1,154 +1,56 @@
-/* body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-}
-
-
-.contact-form{
-    width: 500px;
-    height: 450px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
-    background-color: rgb(240, 198, 204);
-    border:2px solid black;
-    border-radius: 10px;
-}
-p{
-    color: rgb(46, 44, 44);
-    font-weight: bold;
-    font-size:xx-large;
-    text-decoration-line: underline;
-    color: rgb(33, 33, 112);
-    /* margin-bottom: 50px; */
-    /* padding-top:0px; */
-    /* padding-bottom: 70px; */
-/* } */
-/* input{
-    /* width: full; */
-    /* height: full; */
-    /* padding-bottom: 50px; */
-    /* outline: none; */
-    /* border: none; */
-    /* background-color:  rgb(224, 239, 244); */
-/* } */
-/* .name{
-    width: 260px;
-    height: 40px;
-    font-size:x-large;
-    background-color: rgb(224, 239, 244);
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 5px;
-} */
-/* .email{
-    width: 270px;
-    height: 40px;
-    font-size:x-large;
-    background-color: rgb(224, 239, 244);
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 5px;
-} */
-/* .massage{
-    width: 290px;
-    height: 40px; */
-    /* font-size:x-large; */
-    /* background-color: rgb(224, 239, 244);
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 5px;
-} */
-/* button{
-    width: 100px;
-    height: 50px;
-    font-size:large;
-    background-color: rgb(253, 187, 94);
-    border-radius: 10px;
-}
-.btn{
-    margin-top: -60px;
-}
-input:hover{
-    background-color: rgb(207, 213, 224); */
-/* } */ 
-
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
-.contact-form{
+.container{
+    width:400px;
+    height: 500px;
     margin: 100px auto;
-    border: 2px solid black;
-    border-radius: 12px;
-    width: 700px;
-    background-color: rgba(172, 51, 51, 0.63);
-    padding: 40px;
+    border-radius: 100%;
+    background-color: rgb(44, 102, 235);
+    border-radius:30% 15px;
 }
-.info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap:10px;
-    margin-left: 100px;
-    margin-top: 30px;
-    font-size: 30px;
+h1{
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    font-size: 35px;
+    padding-left: 10px;
 }
+.contant{
+    margin-left: 60px;
+    padding-top: 30px;
+    }
 input{
-    width: 500px;
-    font-size: 25px;
-    border:none;
-    outline:none;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
-}
-input:focus{
-    background-color:rgba(249, 237, 236, 0.925)  ;
-}
-textarea{
-    width: 500px;
+    font-size: 20px;
+    padding:10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
     border: none;
     outline: none;
-    border-radius: 5px;
-    padding: 5px;
-    font-size: 25px;
 }
-textarea:focus{
-    background-color:rgba(249, 237, 236, 0.925) ;
-}
-p{
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-decoration-line:underline;
-}
-label{
-    width: fit-content;
-    border: 2px dotted black;
+textarea{
+    font-size: 20px;
+    padding:10px;
+    margin-bottom: 20px;
     border-radius: 10px;
-    background-color: rgba(150, 82, 82, 0.888);
-    padding: 5px;
 }
 button{
-    width:120px;
-    height: 40px;
-    margin-left: 300px;
+    width: 250px;
+    height: 30px;
+    border-radius:10px ;
+    margin: 0 auto;
     margin-top: 30px;
-    font-size: 25px;
-    padding: 5px;
-    background-color: rgba(103, 43, 40, 0.781);
-    color: rgb(242, 183, 183);
-    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
     font-weight: 600;
 }
 button:hover{
-    background-color:rgb(242, 183, 183);
-    color:  rgba(103, 43, 40, 0.845);
+    background-color:  rgb(32, 53, 75);
+    color: white;
+}
+input:focus{
+    background-color:rgb(203, 225, 247);
+    /* color: white; */
 }
