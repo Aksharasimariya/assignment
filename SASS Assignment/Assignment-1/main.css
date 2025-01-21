@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.box {
+  width: 800px;
+  height: 600px;
+  background: rgb(210, 104, 122);
+  border-radius: 15px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.box:hover {
+  background-color: rgb(116, 116, 243);
+  transform: scale(0.8);
+  transition: 2s;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(140, 196, 113);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.box1:hover {
+  background-color: rgb(20, 28, 52);
+  border-radius: 20px;
+  transition: 2s;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(140, 196, 113);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.box2:hover {
+  background-color: rgb(20, 28, 52);
+  border-radius: 20px;
+  transition: 2s;
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(140, 196, 113);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.box3:hover {
+  background-color: rgb(20, 28, 52);
+  border-radius: 20px;
+  transition: 2s;
+}/*# sourceMappingURL=main.css.map */

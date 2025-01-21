@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+        body{
+            background-color: rgb(172, 168, 168);
+        }
+        #box{
+            height: 250px;
+            width: 250px;
+            border-radius: 12px;
+            background-color: rgb(132, 33, 50);
+            margin-top: 50px;
+            margin-left: 600px;
+        }
+        button{
+            width: 150px;
+            /* margin-top:200px;
+            margin-left: 250px; */
+            padding: 10px;
+            font-size: 15px;
+            border-radius: 10px;
+            background-color: rgb(231, 194, 194);
+            margin: 5px;
+            margin-top: 100px;
+
+        }
+        #slideup{
+            margin-left: 500px;
+}
+    </style>
+</head>
+<body>
+    
+    <button id="slideup">Slide Up</button>
+    <button id="slidedown">Slide Down</button>
+    <button id="slidetoggle">Slide Toggle</button>
+    <div id="box"></div>
+
+    <script>
+        $(document).ready(function(){
+            $("#slideup").click(function(){
+                $("#box").slideUp();
+            })
+            $("#slidedown").click(function(){
+                $("#box").slideDown();
+            })
+            $("#slidetoggle").click(function(){
+                $("#box").slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>

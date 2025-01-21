@@ -1,0 +1,261 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(147, 144, 144);
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 800px;
+}
+
+.logo {
+  color: red;
+  font-size: 60px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  gap: 30px;
+}
+
+.card1 {
+  transition: 0.8s;
+}
+.card1 .container {
+  width: 450px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 3px solid black;
+  border-radius: 11px;
+}
+.card1 img {
+  width: 445px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px 10px 0px 0px;
+}
+.card1 .content {
+  background-color: rgba(43, 42, 42, 0.59);
+  border-radius: 0px 0px 10px 10px;
+}
+.card1 h1 {
+  font-size: 30px;
+  color: white;
+  padding-top: 10px;
+  margin-left: 30px;
+}
+.card1 p {
+  font-size: 30px;
+  color: white;
+  padding-top: 10px;
+}
+.card1 .prize {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  padding-bottom: 20px;
+}
+.card1 button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+.card1 button:hover {
+  color: white;
+  background-color: rgb(83, 169, 240);
+}
+.card1:hover {
+  color: white;
+  background-color: black;
+  transform: translate(-5px, -5px);
+}
+
+.card2 {
+  transition: 0.8s;
+}
+.card2 .container {
+  width: 450px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 3px solid black;
+  border-radius: 11px;
+}
+.card2 img {
+  width: 445px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px 10px 0px 0px;
+}
+.card2 .content {
+  background-color: rgba(43, 42, 42, 0.59);
+  border-radius: 0px 0px 10px 10px;
+}
+.card2 h1 {
+  font-size: 30px;
+  color: white;
+  padding-top: 10px;
+  margin-left: 30px;
+}
+.card2 p {
+  font-size: 30px;
+  color: white;
+  padding-top: 10px;
+}
+.card2 .prize {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  padding-bottom: 20px;
+}
+.card2 button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+.card2 button:hover {
+  color: white;
+  background-color: rgb(83, 169, 240);
+}
+.card2:hover {
+  color: white;
+  background-color: black;
+  transform: translate(-5px, -5px);
+}
+
+.card3 {
+  transition: 0.8s;
+}
+.card3 .container {
+  width: 450px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 3px solid black;
+  border-radius: 11px;
+}
+.card3 img {
+  width: 445px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px 10px 0px 0px;
+}
+.card3 .content {
+  background-color: rgba(43, 42, 42, 0.59);
+  border-radius: 0px 0px 10px 10px;
+}
+.card3 h1 {
+  font-size: 30px;
+  color: white;
+  padding-top: 10px;
+  margin-left: 30px;
+}
+.card3 p {
+  font-size: 30px;
+  color: white;
+  padding-top: 10px;
+}
+.card3 .prize {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  padding-bottom: 20px;
+}
+.card3 button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+.card3 button:hover {
+  color: white;
+  background-color: rgb(83, 169, 240);
+}
+.card3:hover {
+  color: white;
+  background-color: black;
+  transform: translate(-5px, -5px);
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+footer h1 {
+  font-size: 15px;
+}
+footer .icon i {
+  padding: 10px;
+  margin-top: 5px;
+}/*# sourceMappingURL=main.css.map */

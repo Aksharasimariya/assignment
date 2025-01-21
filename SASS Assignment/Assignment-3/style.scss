@@ -1,0 +1,10 @@
+@for $i from 1 through 10{
+    ul:nth-child(#{$i}){
+        background-color:red;
+        width: 80%;
+        height: 100px;
+        padding:10px 20px;
+        margin:10px 0px;
+    }
+}
+

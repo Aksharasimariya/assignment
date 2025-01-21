@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+@mixin box{
+    width: 800px;
+    height: 600px;
+    background:rgb(210, 104, 122);
+    border-radius: 15px;
+    margin: 50px auto;
+}
+@mixin smallbox{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(140, 196, 113);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+@mixin smallboxhover{
+    &:hover{
+        background-color: rgb(20, 28, 52);
+        border-radius: 20px;
+        transition: 2s;
+    }
+}
+@mixin hover{
+    &:hover{
+        background-color: rgb(116, 116, 243);
+        transform:scale(.8);
+        transition: 2s;
+    }
+}
+@mixin flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.box{
+    @include box;
+    @include hover;
+    @include flexbox;
+}
+.box1{
+    @include smallbox;
+    @include smallboxhover;
+}
+.box2{
+    @include smallbox;
+    @include smallboxhover;
+}
+.box3{
+    @include smallbox;
+    @include smallboxhover;
+}

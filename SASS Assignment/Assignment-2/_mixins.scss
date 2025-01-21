@@ -1,0 +1,90 @@
+// @import "variable";
+// @import "colors";
+
+@mixin header{
+    width: 100%;
+    height: 70px;
+    background-color:$color-secondary;
+    color:$font-color;
+    font-size: $mid-font-size;
+}
+@mixin navflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@mixin card{
+    .container{
+        width: 450px;
+        height: fit-content;
+        border: 3px solid black;
+        border-radius: 11px;
+    }
+    img{
+        width: 445px;
+        height: 400px;
+        object-fit: cover;
+        overflow: hidden;
+        object-position: center;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .content{
+        background-color: $color-tertiary;
+        border-radius: 0px 0px 10px 10px;
+        }
+    h1{
+        font-size:$max-font-size;
+        color:$font-color;
+        padding-top: 10px;
+        margin-left: 30px;
+    }
+    p{
+        font-size:$max-font-size;
+        color:$font-color;
+        padding-top: 10px;  
+    }
+    .prize{
+        @include navflex;
+        gap:300px;
+        padding-bottom: 20px;
+    }
+    button{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color:$color-secondary;
+        background-color: $font-color;
+        font-size: $max-font-size;
+        text-align: center;
+        padding-bottom: 30px;
+        cursor: pointer;
+
+        &:hover{
+            color:$font-color;
+            background-color: rgb(83, 169, 240);
+        }
+    }
+    &:hover{
+            color:$font-color;
+            background-color: $color-secondary;
+            transform:translate(-5px, -5px);
+        }
+    }
+@mixin footer{
+    h1{
+        font-size: $min-font-size;
+    }
+    width: 100%;
+    height: 80px;
+    background-color: $color-secondary;
+    color: $font-color;
+    font-size: $min-font-size;
+    text-align: center;
+    margin-top: $max-margin;
+    padding-top: $mid-padding;
+    .icon i{
+        padding: $mid-padding;
+        margin-top: $min-margin;
+    }
+}

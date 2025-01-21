@@ -1,0 +1,54 @@
+@use "variable";
+@use "color";
+@use "mixins";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: $color-primary;
+}
+header{
+    @include header;
+    @include navflex;
+    gap:800px;
+}
+.logo{
+    color:$logo-color;
+    font-size: $large-font-size;
+}
+ul{
+    list-style: none;
+    @include navflex;
+    gap:40px;
+    
+}
+a{
+    text-decoration: none;
+    color:$font-color;
+    font-size: $max-font-size;
+}
+main{
+    @include navflex;
+    padding-top: 30px;
+    gap:30px;
+
+}
+.card1{
+    @include card;
+    transition: 0.8s;
+}
+.card2{
+    @include card;
+    transition: 0.8s;
+}
+.card3{
+    @include card;
+    transition: 0.8s;
+}
+footer{
+    @include footer;
+}
+
