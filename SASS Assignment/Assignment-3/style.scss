@@ -1,10 +1,71 @@
+// // @for $i from 1 through 10{
+// //     ul:nth-child(#{$i}){
+// //         background-color:red;
+// //         width: 80%;
+// //         height: 100px;
+// //         padding:10px 20px;
+// //         margin:10px 0px;
+// //     }
+// // }
+
+
+// @use 'sass:color';
+
+// // @for $i from 1 to 10 {
+// //   @debug $i;
+// // }
+
+// @for $i from 1 through 10 {
+//   @debug $i;
+// }
+
+// @for $i from 1 through 20 {
+//   .h-#{$i * 5} {
+//     height: $i * 5%;
+//   }
+//   .w-#{$i * 5} {
+//     width: $i * 5%;
+//   }
+// }
+
+// $colors: red, blue, green, yellow, teal, black;
+
+// @each $color in $colors {
+//   @for $i from 1 through 10 {
+//     .bg-#{$color}-#{$i * 100} {
+//       background-color: color.change($color, $whiteness: 100% - $i * 10%);
+//     }
+//   }
+// }
 @for $i from 1 through 10{
-    ul:nth-child(#{$i}){
-        background-color:red;
-        width: 80%;
-        height: 100px;
-        padding:10px 20px;
-        margin:10px 0px;
+    .shade-#{$i * 100}{
+        margin-top: 10px;
+        width: #{$i * 100}px;
+        height:#{$i * 50}px;
+        background:darken(pink, $i * 5%);
     }
 }
+$border-radius : ("regular":12px, "medium":20px , "maximum": 30px);
+$padding:("small":10px , "big":20px ,"large": 30px);
 
+.shade-100 , .shade-200 , .shade-300 , .shade-400{
+    border-radius: map-get($map:$border-radius , $key:regular );
+    padding: map-get($map:$padding , $key:small );
+}
+
+.shade-500 , .shade-600 , .shade-700{
+    border-radius: map-get($map:$border-radius , $key:medium );
+    padding: map-get($map:$padding , $key:big );
+}
+
+.shade-800 , .shade-900 , .shade-1000{
+    border-radius: map-get($map:$border-radius , $key:maximum );
+    padding: map-get($map:$padding , $key:large );
+}
+
+// .shade-400 .shade-500 .shade-6oo{
+//     border-radius: map-get($map:$border-radius , $key:medium );
+// }
+// .shade-700 .shade-800 .shade-900 .shade-1000{
+//     border-radius: map-get($map: $border-radius, $key:maximum);
+// }

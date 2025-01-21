@@ -1,79 +1,84 @@
-ul:nth-child(1) {
-  background-color: red;
-  width: 80%;
-  height: 100px;
-  padding: 10px 20px;
-  margin: 10px 0px;
+.shade-100 {
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  background: #ffa7b6;
 }
 
-ul:nth-child(2) {
-  background-color: red;
-  width: 80%;
+.shade-200 {
+  margin-top: 10px;
+  width: 200px;
   height: 100px;
-  padding: 10px 20px;
-  margin: 10px 0px;
+  background: #ff8da1;
 }
 
-ul:nth-child(3) {
-  background-color: red;
-  width: 80%;
-  height: 100px;
-  padding: 10px 20px;
-  margin: 10px 0px;
+.shade-300 {
+  margin-top: 10px;
+  width: 300px;
+  height: 150px;
+  background: #ff748c;
 }
 
-ul:nth-child(4) {
-  background-color: red;
-  width: 80%;
-  height: 100px;
-  padding: 10px 20px;
-  margin: 10px 0px;
+.shade-400 {
+  margin-top: 10px;
+  width: 400px;
+  height: 200px;
+  background: #ff5a77;
 }
 
-ul:nth-child(5) {
-  background-color: red;
-  width: 80%;
-  height: 100px;
-  padding: 10px 20px;
-  margin: 10px 0px;
+.shade-500 {
+  margin-top: 10px;
+  width: 500px;
+  height: 250px;
+  background: #ff4162;
 }
 
-ul:nth-child(6) {
-  background-color: red;
-  width: 80%;
-  height: 100px;
-  padding: 10px 20px;
-  margin: 10px 0px;
+.shade-600 {
+  margin-top: 10px;
+  width: 600px;
+  height: 300px;
+  background: #ff274d;
 }
 
-ul:nth-child(7) {
-  background-color: red;
-  width: 80%;
-  height: 100px;
-  padding: 10px 20px;
-  margin: 10px 0px;
+.shade-700 {
+  margin-top: 10px;
+  width: 700px;
+  height: 350px;
+  background: #ff0e38;
 }
 
-ul:nth-child(8) {
-  background-color: red;
-  width: 80%;
-  height: 100px;
-  padding: 10px 20px;
-  margin: 10px 0px;
+.shade-800 {
+  margin-top: 10px;
+  width: 800px;
+  height: 400px;
+  background: #f3002a;
 }
 
-ul:nth-child(9) {
-  background-color: red;
-  width: 80%;
-  height: 100px;
-  padding: 10px 20px;
-  margin: 10px 0px;
+.shade-900 {
+  margin-top: 10px;
+  width: 900px;
+  height: 450px;
+  background: #da0026;
 }
 
-ul:nth-child(10) {
-  background-color: red;
-  width: 80%;
-  height: 100px;
-  padding: 10px 20px;
-  margin: 10px 0px;
+.shade-1000 {
+  margin-top: 10px;
+  width: 1000px;
+  height: 500px;
+  background: #c00022;
+}
+
+.shade-100, .shade-200, .shade-300, .shade-400 {
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.shade-500, .shade-600, .shade-700 {
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.shade-800, .shade-900, .shade-1000 {
+  border-radius: 30px;
+  padding: 30px;
 }/*# sourceMappingURL=style.css.map */
