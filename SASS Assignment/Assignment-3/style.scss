@@ -42,11 +42,20 @@
         margin-top: 10px;
         width: #{$i * 100}px;
         height:#{$i * 50}px;
-        background:darken(pink, $i * 5%);
+        background:darken(pink, $i * 3%);
     }
 }
-$border-radius : ("regular":12px, "medium":20px , "maximum": 30px);
-$padding:("small":10px , "big":20px ,"large": 30px);
+$border-radius : (
+    "regular":12px,
+     "medium":20px, 
+     "maximum": 30px
+     );
+
+$padding:(
+    "small":10px , 
+    "big":20px ,
+    "large": 30px
+    );
 
 .shade-100 , .shade-200 , .shade-300 , .shade-400{
     border-radius: map-get($map:$border-radius , $key:regular );
