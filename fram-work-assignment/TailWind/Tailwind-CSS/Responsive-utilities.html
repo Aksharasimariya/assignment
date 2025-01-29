@@ -5,14 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="w-96 h-fit bg-gray-700 rounded-xl" style="margin: 10px auto; border:3px solid rgb(19, 21, 70); ">
-        <img src="https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="object-fit: cover;" alt="Image not found.." class="h-40 lg:h-96 xl:h-[500px] 2xl:mt-2 h-96 ">
-    <div class="content mt-2 bg-gray-700">
+    <nav style="display: flex; align-items: center; justify-content:start ; gap:10px; width: 100%; height: 80px; background-color: rgb(41, 40, 40);" >
+        <div class="logo text-2xl ml-1 p-1 lg:text-4xl lg:ml-5 text-white sm:ml-3 md:ml-2 " style="width:fit-content; height: fit-content; border: 2px solid white; border-radius: 12px; text-align: center;">Responsive</div>
+        <div class="menu xl:ml-96 sm:ml-20">
+        <button class="text-2xl sm:text-sm text-white ml-10 md:text-2xl md:ml-24 lg:text-3xl lg:ml-96"><u>Home</u></button>
+        <button class="text-2xl sm:text-sm text-white ml-2 md:text-2xl md:ml-4 lg:text-3xl lg:ml-5"><u>About</u></button>
+        <button class="text-2xl sm:text-sm text-white ml-2 md:text-2xl md:ml-4 lg:text-3xl lg:ml-5"><u>Service</u></button>
+        <button class="text-2xl sm:text-sm text-white ml-2 md:text-2xl md:ml-4 lg:text-3xl lg:ml-5"><u>Contact</u></button>
+        </div>
+    </nav>
+    <div class="wrapper flex flex-col lg:flex-row">
+        <div class="w-96 h-[500px] bg-gray-700 rounded-xl" style="margin: 10px auto; border:3px solid rgb(19, 21, 70); ">
+        <img src="https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="object-fit: cover;" alt="Image not found.." >
+        <div class="content mt-2 bg-gray-700">
         <h1 class="text-center text-3xl font-bold underline lg:mt-2 text-white">Nature</h1>
         <p class="text-center text-white pb-4 text-2xl lg:mt-2 2xl:ml-2 mr-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores dignissimos facere fuga.</p>
+        </div>
+        </div>
+
+        <div class="w-96 h-[510px] bg-gray-700 rounded-xl" style="margin: 10px auto; border:3px solid rgb(19, 21, 70); ">
+            <img src="https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="object-fit: cover;" alt="Image not found..">
+            <div class="content mt-2 bg-gray-700">
+            <h1 class="text-center text-3xl font-bold underline lg:mt-2 text-white">Nature</h1>
+            <p class="text-center text-white pb-4 text-2xl lg:mt-2 2xl:ml-2 mr-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores dignissimos facere fuga.</p>
+            </div>
+        </div>
+
+            <div class="w-96 h-[510px] bg-gray-700 rounded-xl" style="margin: 10px auto; border:3px solid rgb(19, 21, 70); ">
+                <img src="https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="object-fit: cover;" alt="Image not found..">
+                <div class="content mt-2 bg-gray-700">
+                <h1 class="text-center text-3xl font-bold underline lg:mt-2 text-white">Nature</h1>
+                <p class="text-center text-white pb-4 text-2xl lg:mt-2 2xl:ml-2 mr-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores dignissimos facere fuga.</p>
+                </div>
+            </div>    
     </div>
-</div>
+    <footer style="height: 80px; background-color: rgb(41, 40, 40); margin-top: 40px; color:white; text-align: center; padding-top: 10px;">
+    <div class="upperfooter">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p style="padding-top: 5px;"> @ 2020 Copynght MDBootstrap.com </p>
+    </footer>
 </body>
 </html>
